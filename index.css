@@ -1,0 +1,32 @@
+ul.centered{
+   display: inline-block;
+   text-align: left;
+}
+table.tablestyle{
+   display:flex; 
+   text-align:center; 
+   font-weight: bold;
+   justify-content: center; 
+   
+}
+footer{
+   font-weight: bold;
+   justify-content: center;
+   padding-top: 1%;
+}
+.bd{
+   background-color: black;
+   color: rgb(202, 202, 202);
+   text-align: center;
+}
+a:link{
+   color: #f2c462;
+   background-color: transparent;
+   text-decoration: none;
+}
+a:hover{
+   text-decoration: underline;
+}
+a:visited{
+   color: #f2dcae;
+}

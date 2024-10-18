@@ -1,0 +1,18 @@
+div.center{
+    text-align: center;
+ }
+.bd{
+    background-color: black;
+    color: rgb(202, 202, 202);
+ }
+ a:link{
+    color: #f2c462;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ a:hover{
+    text-decoration: underline;
+ }
+ a:visited{
+    color: #f2dcae;
+ }
