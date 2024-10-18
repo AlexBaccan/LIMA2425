@@ -1,18 +1,36 @@
-div.center{
-    text-align: center;
- }
+ul.centered{
+   display: inline-block;
+   text-align: left;
+}
+table.tablestyle{
+   display:flex; 
+   text-align:center; 
+   font-weight: bold;
+   justify-content: center; 
+}
 .bd{
-    background-color: black;
-    color: rgb(202, 202, 202);
- }
- a:link{
-    color: #f2c462;
-    background-color: transparent;
-    text-decoration: none;
- }
- a:hover{
-    text-decoration: underline;
- }
- a:visited{
-    color: #f2dcae;
- }
+   background-color: black;
+   color: rgb(202, 202, 202);
+   text-align: center;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+a:link{
+   color: #f2c462;
+   background-color: transparent;
+   text-decoration: none;
+}
+a:hover{
+   text-decoration: underline;
+}
+a:visited{
+   color: #f2dcae;
+}
+footer{
+   font-weight: bold;
+   text-align: center;
+}
+.returnbutton{
+   text-align: left;
+}

@@ -9,11 +9,6 @@ table.tablestyle{
    justify-content: center; 
    
 }
-footer{
-   font-weight: bold;
-   justify-content: center;
-   padding-top: 1%;
-}
 .bd{
    background-color: black;
    color: rgb(202, 202, 202);
@@ -29,4 +24,10 @@ a:hover{
 }
 a:visited{
    color: #f2dcae;
+}
+footer{
+   font-weight: bold;
+   justify-content: center;
+   padding-top: 1%;
+   bottom: 0;
 }
