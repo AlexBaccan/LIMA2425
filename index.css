@@ -2,12 +2,11 @@ ul.centered{
    display: inline-block;
    text-align: left;
 }
-table.tablestyle{
+.tablestyle{
    display:flex; 
    text-align:center; 
    font-weight: bold;
    justify-content: center; 
-   
 }
 .bd{
    background-color: black;
@@ -30,4 +29,7 @@ footer{
    justify-content: center;
    padding-top: 1%;
    bottom: 0;
+}
+u{
+   font-weight: bold;
 }

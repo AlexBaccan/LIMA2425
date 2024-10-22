@@ -2,7 +2,7 @@ ul.centered{
    display: inline-block;
    text-align: left;
 }
-table.tablestyle{
+.tablestyle{
    display:flex; 
    text-align:center; 
    font-weight: bold;
@@ -12,9 +12,6 @@ table.tablestyle{
    background-color: black;
    color: rgb(202, 202, 202);
    text-align: center;
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
 }
 a:link{
    color: #f2c462;
@@ -29,7 +26,9 @@ a:visited{
 }
 footer{
    font-weight: bold;
-   text-align: center;
+   justify-content: center;
+   padding-top: 1%;
+   bottom: 0;
 }
 .returnbutton{
    text-align: left;
