@@ -9,13 +9,6 @@ body {
    background-size: cover;
 }
 
-.tablestyle {
-   display: flex;
-   text-align: center;
-   font-weight: bold;
-   justify-content: center;
-}
-
 .content {
    height: 70%;
    width: 70%;
@@ -27,12 +20,6 @@ body {
    box-shadow: 0 1.5rem 3rem rgba(242, 196, 98, 0.5);
 
 }
-.hijo{
-   padding: 2px;
-   color: rgb(202, 202, 202);
-   text-align: center;
-}
-
 
 a:link {
    color: #f2c462;
@@ -42,7 +29,6 @@ a:link {
 
 a:hover {
    text-decoration: underline;
-
 }
 
 a:visited {
@@ -59,14 +45,6 @@ footer {
 }
 
 .logo {
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-}
-
-.hijo {
-   padding: 2px;
-   color: rgb(202, 202, 202);
    text-align: center;
 }
 
@@ -116,4 +94,33 @@ footer {
 .dropdown:hover .dropdown-content {
    top: 62px;
    display: block;
+}
+
+form {
+   /* Solo borde abajo porque el resto del borde viene del content*/
+   padding: 5px;
+   color: rgb(202, 202, 202);
+}
+
+.formfield {
+   border: 2px solid #f2dcae;
+   margin-bottom: 5px;
+   text-align: center;
+}
+
+legend {
+   font-weight: bold;
+}
+
+.submitbutton {
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+}
+.botonlogin{
+   margin-left: 4px;
+   margin-right: 4px;
+   border: 2px solid #f2dcae;
 }

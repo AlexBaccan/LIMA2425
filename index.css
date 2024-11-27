@@ -1,4 +1,14 @@
-ul.centered{
+*{
+   cursor: url(media/img/Cursors/Ezomyte_Cursor.png) 10 5, auto;
+}
+
+body{
+   background-image: url(media/img/Background/BackGroundTest.jpeg);
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+ul.centered{ /* alinear los bulletpoints */
    display: inline-block;
    text-align: left;
 }
@@ -8,10 +18,15 @@ ul.centered{
    font-weight: bold;
    justify-content: center; 
 }
-.bd{
+.content{
+   height: 70%;
+   width: 70%;
+   margin: 15%;
+   margin-top: 0%; /* Necesario para que no se quede muy abajo el bloque*/ 
+   border: 2px solid rgb(242, 196, 98);
    background-color: black;
-   color: rgb(202, 202, 202);
-   text-align: center;
+   box-shadow: 0 1.5rem 3rem rgba(242, 196, 98, 0.5);
+
 }
 a:link{
    color: #f2c462;
@@ -25,11 +40,83 @@ a:visited{
    color: #f2dcae;
 }
 footer{
+   color: rgb(202, 202, 202);
    font-weight: bold;
+   text-align: center;
    justify-content: center;
    padding-top: 1%;
-   bottom: 0;
+   padding-bottom: 1%;
 }
-u{
+.logo{
+   text-align: center;
+}
+.hijo{
+   padding: 2px;
+   color: rgb(202, 202, 202);
+   text-align: center;
+}
+.imagen{
+   width: 80%;
+}
+.dropmenu { /* Botón del menú */
+   position: fixed;
+   background-color: black;
+   border: 2px solid #f2dcae;
+   color: rgb(202, 202, 202);
    font-weight: bold;
+   width: 80px;
+   height: 40px;
+ }
+ 
+ /* Div donde está el menú */
+ .dropdown {
+   position:relative;
+   display: inline-block;
+ }
+ 
+ /* Contenido del menú (por defecto oculto) */
+ .dropdown-content {
+   position: fixed;
+   display: none; /* para ocultarlo*/
+   font-weight: bold;
+   color: #f2dcae;
+   background-color: black;
+   min-width:max-content;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ /* Enlaces del dropdown */
+ .dropdown-content a {
+   padding: 10px;
+   text-decoration: none;
+   display: block;
+ }
+ 
+ /* Mete borde al hacer hover */
+ .dropdown-content a:hover {
+   border: 2px solid #f2dcae;
+}
+ 
+ /* Enseñar menú con hover */
+ .dropdown:hover .dropdown-content {
+   top: 62px;
+   display: block;
+}
+.loginbutton{
+   position: fixed;
+   
+   background-color: black;
+   border: 2px solid #f2dcae;
+   color: rgb(202, 202, 202);
+   font-weight: bold;
+   width: 80px;
+   height: 40px;
+}
+.login{
+   position: relative;
+   display: inline-block;
+}
+.loginmenu{
+   display: relative;
 }

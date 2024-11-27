@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title> PoE Form </title> <!-- TAB title -->
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="media/img/Icons/PoEIcon.png" /> <!-- TAB Icon -->
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropmenu">Menú</button>
+        <div class="dropdown-content">
+            <a href="index.html#WhatAbout">Sobre PoE</a>
+            <a href="index.html#Classes">Clases</a>
+            <a href="index.html#Leagues">Ligas</a>
+            <a href="leveling.html">Leveling</a>
+            <a href="formulario.html"> Tu clase </a>
+            <a href="workinprogress.html">Laberinto</a>
+            <a href="workinprogress.html">Endgame</a>
+            <a href="workinprogress.html">Bosses</a>
+            <a href="workinprogress.html">Builds</a>
+        </div>
+    </div>
+    <div class="logo">
+        <a href="index.html" title="Menú Principal"><img src="media/img/Icons/PoEIcon.png" alt="Icono de Path of Exile" width="200px" id="TituloIndex"></a> <!-- Icono central -->
+    </div>
+    <div class="content">
+        <form method="" action="">
+            <fieldset class="formfield">
+                <legend> Identifícate </legend>
+
+                <label for="userid"> Nombre: </label>
+                <br>
+                <input type="text" id="userid" name="username">
+                <br>
+                <label for="userpass"> Ingame ID: </label>
+                <br>
+                <input type="text" id="userpass" name="userpass">
+                <!-- Con el type password, lo que escribes está oculto con **** -->
+            </fieldset>
+            <fieldset class="formfield">
+                <legend> ¿Qué tipo de jugador eres? </legend>
+                <input type="radio" id="buttonchoice" name="buttonchoice" value="buttonvalue">
+                <label for="buttonchoice"> Me lanzo a por mis enemigos sin miedo.</label>
+                <br />
+                <input type="radio" id="buttonchoice2" name="buttonchoice" value="buttonvalue2">
+                <label for="buttonchoice2"> Ataco desde una distancia segura.</label>
+                <br />
+                <input type="radio" id="buttonchoice3" name="buttonchoice" value="buttonvalue3">
+                <label for="buttonchoice3"> Uso magia para acabar con los malos.</label>
+
+            </fieldset>
+            <fieldset class="formfield">
+                <legend> ¿Qué tipo de arma prefieres? </legend>
+                <input type="checkbox" id="checkbox" name="ArcoCheckbox">
+                <label for="checkbox"> Arco </label>
+                <input type="checkbox" id="checkbox" name="MazaCheckbox">
+                <label for="checkbox"> Maza </label>
+                <input type="checkbox" id="checkbox" name="EspadaCheckbox">
+                <label for="checkbox"> Espada </label>
+                <input type="checkbox" id="checkbox" name="GarraCheckbox">
+                <label for="checkbox"> Garra </label>
+                <input type="checkbox" id="checkbox" name="VaritaCheckbox">
+                <label for="checkbox"> Varita </label>
+                <input type="checkbox" id="checkbox" name="CetroCheckbox">
+                <label for="checkbox"> Cetro </label>
+                <input type="checkbox" id="checkbox" name="HachaCheckbox">
+                <label for="checkbox"> Hacha </label>
+                <!-- Botón que queda marcado, similar a una checkbox -->
+                <!-- Manteniendo el nombre de la variable -->
+            </fieldset>
+            <fieldset class="formfield">
+                <legend> ¿Cuándo empezaste a jugar? </legend>
+                <input type="date" id="date" name="date" min="2013-10-23" max="2024-12-31">
+                <input type="checkbox" id="checkboxdate" name="DateCheckbox">
+                <label for="checkboxdate" id="checkboxdate">Aún no he jugado</label>
+            </fieldset>
+            <fieldset class="formfield">
+                <legend> ¿A qué hora sueles jugar? </legend>
+                <label for="time">Empiezo a:</label>
+                <input type="time" id="time" name="timestart">
+                <br>
+                <label for="time">Acabo a:</label>
+                <input type="time" id="time" name="timefinish">
+            </fieldset>
+            <fieldset class="formfield">
+                <legend>¿Qué color prefieres?</legend>
+                <input type="color" id="color">
+                <label for="color">¡Selecciona un color!</label>
+            </fieldset>
+            <fieldset class="formfield">
+                <legend>Tu historia</legend>
+                <label for="textarea">
+                    <textarea class="textarea"> Sobre ti...</textarea>
+                </label>
+            </fieldset>
+            <input  type="submit" value="Enviar" class="enviar" />
+        </form>     
+        <footer>
+            Made by <a href="https://github.com/AlexBaccan" target="_blank">Alejandro Freire Gil </a>
+        </footer>
+    </div>
+    
+</body>
+
+</html>
