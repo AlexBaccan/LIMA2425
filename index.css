@@ -1,111 +1,143 @@
-*{
+* {
    cursor: url(media/img/Cursors/Ezomyte_Cursor.png) 10 5, auto;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
    background-image: url(media/img/Background/BackGroundTest.jpeg);
    background-attachment: fixed;
    background-repeat: no-repeat;
-   background-size:cover;
+   background-size: cover;
 }
-ul.centered{ /* alinear los bulletpoints */
+
+ul.centered {
+   /* alinear los bulletpoints */
    display: inline-block;
    text-align: left;
 }
-.tablestyle{
-   display:flex; 
-   text-align:center; 
+
+.tablestyle {
+   display: flex;
+   text-align: center;
    font-weight: bold;
-   justify-content: center; 
+   justify-content: center;
 }
-.content{
+
+.content {
+   padding: 2px;
+   box-sizing: border-box;
    height: 70%;
    width: 70%;
    margin: 15%;
-   margin-top: 0%; /* Necesario para que no se quede muy abajo el bloque*/ 
+   margin-top: 0%;
+   /* Necesario para que no se quede muy abajo el bloque*/
    border: 2px solid rgb(242, 196, 98);
    background-color: black;
    box-shadow: 0 1.5rem 3rem rgba(242, 196, 98, 0.5);
 
 }
-a:link{
+
+a:link {
    color: #f2c462;
    background-color: transparent;
    text-decoration: none;
 }
-a:hover{
+
+a:hover {
    text-decoration: underline;
 }
-a:visited{
+
+a:visited {
    color: #f2dcae;
 }
-footer{
+
+footer {
    color: rgb(202, 202, 202);
    font-weight: bold;
    text-align: center;
-   justify-content: center;
    padding-top: 1%;
    padding-bottom: 1%;
 }
-.logo{
+
+.logo {
    text-align: center;
 }
-.hijo{
+
+.hijo {
    padding: 2px;
    color: rgb(202, 202, 202);
    text-align: center;
 }
-.imagen{
+
+.imagen {
    width: 80%;
 }
-.dropmenu { /* Botón del menú */
-   position: fixed;
+
+.dropmenu {
+   /* Botón del menú */
+   position: relative;
    background-color: black;
    border: 2px solid #f2dcae;
    color: rgb(202, 202, 202);
    font-weight: bold;
-   width: 80px;
+   width: 50px;
    height: 40px;
- }
- 
- /* Div donde está el menú */
- .dropdown {
-   position:relative;
-   display: inline-block;
- }
- 
- /* Contenido del menú (por defecto oculto) */
- .dropdown-content {
+   box-sizing: border-box;
+   padding-top: 5px; /* Para que no quede descentrada la hamburguesa */
+}
+
+.dropmenu span {
+   display: block;
+   width: 100%;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   background: rgb(202, 202, 202);
+   border-radius: 3px;
+}
+
+/* Div donde está el menú */
+.dropdown {
    position: fixed;
-   display: none; /* para ocultarlo*/
+   display: inline-block;
+}
+
+/* Contenido del menú (por defecto oculto) */
+.dropdown-content {
+   position: fixed;
+   display: none;
+   /* para ocultarlo*/
    font-weight: bold;
    color: #f2dcae;
    background-color: black;
-   min-width:max-content;
-   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   min-width: max-content;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
    z-index: 1;
- }
- 
- /* Enlaces del dropdown */
- .dropdown-content a {
+}
+
+/* Enlaces del dropdown */
+.dropdown-content a {
    padding: 10px;
    text-decoration: none;
    display: block;
- }
- 
- /* Mete borde al hacer hover */
- .dropdown-content a:hover {
-   border: 2px solid #f2dcae;
 }
- 
- /* Enseñar menú con hover */
- .dropdown:hover .dropdown-content {
-   top: 62px;
+
+/* Cambio de color al hacer hover */
+.dropdown-content a:hover {
+   background-color: #f2dcae;
+   color: black;
+}
+
+/* Enseñar menú con hover */
+.dropdown:hover .dropdown-content {
+   top: 48px;
+   /* Para que esté bien colocado con el menu fixed*/
    display: block;
 }
-.loginbutton{
-   position: fixed;
-   
+
+.loginbutton {
+   position: relative;
+   /* ************************ */
    background-color: black;
    border: 2px solid #f2dcae;
    color: rgb(202, 202, 202);
@@ -113,10 +145,17 @@ footer{
    width: 80px;
    height: 40px;
 }
-.login{
-   position: relative;
-   display: inline-block;
+
+.login {
+   margin: 0;
+   margin-left: calc(100% - 95px);
+   position: fixed;
+   display: block;
+   float: right;
 }
-.loginmenu{
-   display: relative;
+
+.loginbutton:hover {
+   background-color: #f2dcae;
+   color: black;
+   transition: 0.25s;
 }
