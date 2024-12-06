@@ -4,12 +4,12 @@ form {
     color: rgb(202, 202, 202);
 }
 
-.formfield {
+.formfield { /* Rehacemos el formfield a nuestro gusto*/
     border: 2px solid #f2dcae;
     margin-bottom: 5px;
 }
 .textarea{
-    resize: none;
+    resize: none; /* Bloqueamos el poder variar el tamaño del cuadro de texto*/
     height: 50px;
     width: 100%;
     max-width: 100%;

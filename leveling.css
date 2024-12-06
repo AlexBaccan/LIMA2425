@@ -1,1 +1,22 @@
 /* De momento no hace falta aplicar nada aquí*/
+nav li{
+    display: inline;
+    width: 80px;
+}
+nav ul{
+    display: block;
+    text-align: center;
+}
+
+nav ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+nav a:hover, a.active{
+    text-decoration: none;
+    color: black;
+    background-color: #f2dcae;
+    transition: 0.5s;
+}

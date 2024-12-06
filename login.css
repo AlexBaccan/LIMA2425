@@ -3,8 +3,7 @@ form {
    color: rgb(202, 202, 202);
 }
 
-.formfield {
-
+.formfield { /* Rehacemos el formfield a nuestro gusto*/
    border: 2px solid #f2dcae;
    margin-bottom: 5px;
    text-align: center;
@@ -14,14 +13,14 @@ legend {
    font-weight: bold;
 }
 
-.submitbutton {
+.submitbutton { /*div que tiene el submit y el botón de retroceso*/
    border: none;
    display: flex;
    justify-content: center;
    align-items: center;
    height: 100%;
 }
-.botonlogin{
+.botonlogin{ /*submit y botón de retroceso*/
    margin-left: 4px;
    margin-right: 4px;
    border: 2px solid #f2dcae;
