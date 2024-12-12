@@ -11,7 +11,7 @@ En index.html podemos encontrar:
 
 En leveling.html podemos encontrar:
     Etiquetas de audio y vídeo completamente funcionales.
-    Un nav para redireccionar a otros documentos HTML (sustituyendo a la tabla que hay en los demás).
+    Un <nav> para redireccionar a otros documentos HTML (sustituyendo a la tabla que hay en los demás).
 
 En formulario.html podemos encontrar:
     Un formulario completo con sus correspondientes etiquetas.
