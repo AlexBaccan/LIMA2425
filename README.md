@@ -1,6 +1,6 @@
 El proyecto consta de  4 páginas implementadas (index.html, leveling.html, formulario.html y login.html).
 
-En caso de entrar en cualquier página diferente a estas 3, se redirigirá a workinprogress.html.
+En caso de entrar en cualquier página diferente a estas 3, se redirigirá a workinprogress.html (la cual tambíen está implementada).
 
 En index.html podemos encontrar:
     Un menú principal con explicaciones detalladas generales sobre el contexto de la página.
