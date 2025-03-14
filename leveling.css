@@ -20,3 +20,23 @@ nav a:hover, a.active{
     background-color: #f2dcae;
     transition: 0.5s;
 }
+.container{
+    display: grid;
+    justify-content: space-around;
+    /* Para indicar las celdas, "1fr" indica una fracción de espacio libre, cambiarlo
+    altera el tamaño de la celda. */
+    /* También se pueden usar píxeles como medida */
+    grid-template-rows: 1fr;
+   /* Para evitar escribir todo cuando la matriz es gigante, usamos:
+    grid-template-rows: repeat(3, 1fr);*/
+
+    grid-template-columns: 1fr 1fr;
+
+    /* Si queremos separar las celdas entre sí: */
+}
+.hover{
+    transition: 0.5s ease;
+}
+.hover:hover{
+    transform: scale(1.1);
+}

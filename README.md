@@ -1,6 +1,6 @@
 El proyecto consta de  4 páginas implementadas (index.html, leveling.html, formulario.html y login.html).
 
-En caso de entrar en cualquier página diferente a estas 3, se redirigirá a workinprogress.html (la cual tambíen está implementada).
+En caso de entrar en cualquier página diferente a estas 3, se redirigirá a workinprogress.html.
 
 En index.html podemos encontrar:
     Un menú principal con explicaciones detalladas generales sobre el contexto de la página.
@@ -26,3 +26,9 @@ Contenidos comunes:
     Un pie de página, el cual redirecciona al GitHub del creador.
     Una tabla al final con redireccionamientos a otros documentos HTML.
 
+
+Actualizaciones 14-03-2025:
+    He cambiado el triple <span> del dropdown menú por un icono hamburguer de Google Icons.
+    Añadido un diseño responsivo mínimo, cambio de color de borde del contenedor de contenido.
+    Añadidos sprites en el <footer> del index
+    Nuevo uso de grid en las imágenes de leveling.
