@@ -28,7 +28,7 @@ Contenidos comunes:
 
 
 Actualizaciones 14-03-2025:
-    He cambiado el triple <span> del dropdown menú por un icono hamburguer de Google Icons.
-    Añadido un diseño responsivo mínimo, cambio de color de borde del contenedor de contenido.
-    Añadidos sprites en el <footer> del index
+    He cambiado el triple span del dropdown menú por un icono hamburguer de Google Icons.
+    Añadido un diseño responsivo mínimo, cambio de color de borde del contenedor central.
+    Añadidos sprites en el footer del index
     Nuevo uso de grid en las imágenes de leveling.
